@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrap{
+  width: 490px;
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+}
+.list{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+ul li{
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+ul li a{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  margin-right: 6px;
+}
+#img2,#img3,#img4,#img5{
+  display: none;
+}
